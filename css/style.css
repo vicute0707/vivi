@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 1082px;
+    height: 700px;
+}
+
+.main header {
+    width: 100%;
+    background-color: rgb(187, 221, 221);
+    height: 150px;
+    position: relative;
+}
+
+.main header .menu {
+    width: 30%;
+    height: 50px;
+    background-color: rgb(217, 201, 201);
+    position: absolute;
+    right: 30px;
+    bottom: 80px;
+    border-radius: 5px 5px 5px 5px;
+    resize: both;
+    overflow: auto;
+}
+
+.main header .nav {
+    width: 100%;
+    height: 70px;
+    background-color: bisque;
+    position: absolute;
+    bottom: 0;
+}
+
+.main header .nav ul {
+    position: absolute;
+    right: 0;
+}
+
+.main header .nav li {
+    display: inline-block;
+    line-height: 70px;
+    padding: 0 30px;
+    background-color: rgb(243, 222, 222);
+}
+
+.main header .nav li a {
+    color: darkcyan;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.main header .nav li:hover {
+    background-color: rgb(228, 147, 147);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.main header .nav li:hover>a {
+    color: rgb(203, 64, 64);
+    font-style: italic;
+}
+
+.main .body {
+    width: 100%;
+    height: 500px;
+}
+
+.main .body .aside {
+    width: 40%;
+    height: 100%;
+    background-color: blanchedalmond;
+    float: left;
+}
+
+.main .body .section {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(90, 73, 48);
+    float: left;
+}
+
+.main footer {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
